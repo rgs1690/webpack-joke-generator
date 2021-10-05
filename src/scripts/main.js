@@ -6,10 +6,6 @@ import '../styles/main.scss';
 import startApp from './helpers/startApp';
 
 const init = () => {
-  // document.querySelector('#app').innerHTML = `
-  // `;
-
-  // getJoke().then(console.warn);
   startApp();
 };
 

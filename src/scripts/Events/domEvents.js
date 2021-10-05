@@ -4,7 +4,8 @@ import getJoke from '../helpers/jokeData';
 const domEvents = () => {
   document.querySelector('#main-container').addEventListener('click', (e) => {
     if (e.target.id.includes('get-joke-btn')) {
-      getJoke().then((jokeObj) => showSetup(jokeObj.setup));
+      getJoke().then((jokeObj) => console.warn(jokeObj.setup));
+      getJoke().then((jokeObj) => showSetup(jokeObj));
     }
   });
 };
