@@ -1,2 +1,30 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import "~bootstrap/scss/bootstrap";
+
+body {
+    background-color: black;
+}
+
+#main-container {
+    background-color: #474747;
+    margin: auto;
+    margin-top: 100px;
+    width: 712px;
+    height: 715px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+}
+.btn {
+    background-color: black;
+    border: 0;
+}
+h1 {
+    margin-bottom: 150px;
+}
+img {
+    width: 512px;
+    height: 110px;
+    margin-bottom: 150px;
+}
