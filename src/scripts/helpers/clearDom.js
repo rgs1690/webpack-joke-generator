@@ -1,5 +1,5 @@
 const clearDom = () => {
-  document.querySelector('#view').innerHTML = '';
+  document.querySelector('#joke-view').innerHTML = '';
   document.querySelector('#button-container').innerHTML = '';
 };
 
